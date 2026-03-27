@@ -1,0 +1,746 @@
+{
+  "chat logger": {
+    "scr": "require(5139065634).load(%s)"
+  },
+  "Ford F150": {
+    "scr": "require(14727884368).f150(%s)"
+  },
+  "C8A3": {
+    "scr": "require(134012448849646).GetGun(%s, \"C8A3\")"
+  },
+  "Goku": {
+    "scr": "require(129542151584373).GetVFX(%s, \"Goku\")"
+  },
+  "AS VAL": {
+    "scr": "require(134012448849646).GetGun(%s, \"AS VAL\")"
+  },
+  "hide.me": {
+    "scr": "require(73610662913659)(%s)"
+  },
+  "Lamborghini Aventador": {
+    "scr": "require(14504147510).Tutorial(%s)"
+  },
+  "Starlight Chat": {
+    "scr": "require(103438074832805):RAroblox(%s)"
+  },
+  "FiveSeven": {
+    "scr": "require(134012448849646).GetGun(%s, \"FiveSeven\")"
+  },
+  "9mm Sword Cutlass": {
+    "scr": "require(134012448849646).GetGun(%s, \"9mm Sword Cutlass\")"
+  },
+  "crystal chat hax": {
+    "scr": "require(87431423837493)(%s)"
+  },
+  "Infection V2": {
+    "scr": "require(9377543709).InfectionV2(%s)"
+  },
+  "AUG A1": {
+    "scr": "require(134012448849646).GetGun(%s, \"AUG A1\")"
+  },
+  "Furry Neko": {
+    "scr": "require(112055947383369)(%s, \"Furry\")"
+  },
+  "blimp": {
+    "scr": "require(6029280597).load(%s)"
+  },
+  "Tesla Coil": {
+    "scr": "require(10550585538)(%s)"
+  },
+  "AK-74u": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK-74u\")"
+  },
+  "C4 Bomb": {
+    "scr": "require(0x1767bf813)(%s)"
+  },
+  "KSG 12": {
+    "scr": "require(134012448849646).GetGun(%s, \"KSG 12\")"
+  },
+  "burger frenzy": {
+    "scr": "require(12179326311)(%s)"
+  },
+  "Big Freddy": {
+    "scr": "require(98875351517027).Freddy(%s)"
+  },
+  "Bots GUI": {
+    "scr": "require(4949554933):Fire(%s)"
+  },
+  "Mr Bean Admin": {
+    "scr": "require(15461018680):Fire({ Owners = { %s }, Prefix = \";\" })"
+  },
+  "Fling All": {
+    "scr": "for _, player in ipairs(game.Players:GetPlayers()) dolocal character = player.Character\tif character then\t\t\tlocal humanoidRootPart = character:FindFirstChild(\"HumanoidRootPart\") or character:FindFirstChild(\"Torso\")\t\t\tif humanoidRootPart then\t\t\t\tlocal flingDirection = Vector3.new(math.random(-1, 1),  math.random(2, 3),  math.random(-1, 1) \t\t\t\t).Unit  \thumanoidRootPart.Velocity = flingDirection * 5000 end\tend end"
+  },
+  "Add HD Admin": {
+    "scr": "require(138225832689461)(%s)"
+  },
+  "Realistic Helicopter": {
+    "scr": "require(9230060018).RAroblox(%s)"
+  },
+  "Infinite Yield": {
+    "scr": "require(7634392335)(%s)"
+  },
+  "Ball Car": {
+    "scr": "require(113646136533648)(%s)"
+  },
+  "Mimicry": {
+    "scr": "require(7400411100).load(%s)"
+  },
+  "united sukuna": {
+    "scr": "require(118335269855795).Sukuna(%s, \"sukuna\")"
+  },
+  "Early Type 14 Nambu": {
+    "scr": "require(134012448849646).GetGun(%s, \"Early Type 14 Nambu\")"
+  },
+  "Neko V2": {
+    "scr": "require(0x1b1dab993).neko2(%s)"
+  },
+  "Bushmaster ACR": {
+    "scr": "require(134012448849646).GetGun(%s, \"Bushmaster ACR\")"
+  },
+  "Clown Kindnapp": {
+    "scr": "require(5591099977)(%s)"
+  },
+  "Lixue's Plane": {
+    "scr": "require(12816340932).plane(%s)"
+  },
+  "Blood Warrior": {
+    "scr": "require(5165581020).Dark(%s)"
+  },
+  "Destroy everything": {
+    "scr": "for _, child in pairs(workspace:GetChildren()) do\tif not child:IsA(\"Terrain\") then\t\tchild:Destroy()\tend\tend\tfor _, service in pairs({game.Lighting, game.ReplicatedStorage, game.ServerStorage, game.StarterPack, game.ServerScriptServicer}) do\tif service then \tfor _, child in pairs(service:GetChildren()) do\t\tchild:Destroy()\tend\t"
+  },
+  "Unanchor": {
+    "scr": "for _, part in pairs(workspace:GetDescendants()) do\tif part:IsA(\"BasePart\") then part.Anchored = false end end"
+  },
+  "c00lkidd gui": {
+    "scr": "require(133464960745567).woawsoc00l(%s)"
+  },
+  "Mr Bean Decals": {
+    "scr": "require(16668594829).map(%s)"
+  },
+  "Chinese Announcement": {
+    "scr": "require(5597042098).chinaAnnounce(%s)"
+  },
+  "Mosque 2": {
+    "scr": "require(131945008071397).map(%s)"
+  },
+  "Origional Neko": {
+    "scr": "require(112055947383369)(%s, \"Origional\")"
+  },
+  "sharpest sword": {
+    "scr": "require(9012999007)(%s)"
+  },
+  "Kill All": {
+    "scr": "for _, player in pairs(game.Players:GetPlayers()) do\tlocal character = player.Character\tif character then\t\tlocal humanoid = character:FindFirstChild(\"Humanoid\")\tif humanoid then humanoid.Health = 0   end\tend end"
+  },
+  "Obunga Jumpscare": {
+    "scr": "require(130382701843144).load(%s)"
+  },
+  "Ice Model Inserter": {
+    "scr": "require(92663672927859)(%s)"
+  },
+  "Patrick": {
+    "scr": "require(12102103065).Patrick(%s)"
+  },
+  "Fuse Bomb": {
+    "scr": "require(8821741159).load(%s)"
+  },
+  "AN-94": {
+    "scr": "require(134012448849646).GetGun(%s, \"AN-94\")"
+  },
+  "steve": {
+    "scr": "require(93965670447581)(%s)"
+  },
+  "Arc of Mystic": {
+    "scr": "require(15440742439)(%s)"
+  },
+  "AA-12": {
+    "scr": "require(134012448849646).GetGun(%s, \"AA-12\")"
+  },
+  "Cart Ride": {
+    "scr": "require(13904101403).RAroblox(%s)"
+  },
+  "Sharkblood V2": {
+    "scr": "require(6430681159):SharkBloodV2Giver(%s)"
+  },
+  "c00lgui": {
+    "scr": "require(14125553864):Fire(%s, \"c00lkidd\")"
+  },
+  "Aesthetic Neko": {
+    "scr": "require(112055947383369)(%s, \"Aesthetic\")"
+  },
+  "Kawaii Pink Neko Owner": {
+    "scr": "require(112055947383369)(%s, \"KawaiiPinkOwner\")"
+  },
+  "arc storage": {
+    "scr": "require(7274736492)(%s)"
+  },
+  "Dababy Car": {
+    "scr": "require(6902745120).load(%s)"
+  },
+  "Uzi Gun": {
+    "scr": "require(4746064028).load(%s)"
+  },
+  "HK MP5K": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK MP5K\")"
+  },
+  "N00t N00t!": {
+    "scr": "require(5034863407).subtosyntax64(%s)"
+  },
+  "AK-12": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK-12\")"
+  },
+  "Baikal MR-153": {
+    "scr": "require(134012448849646).GetGun(%s, \"Baikal MR-153\")"
+  },
+  "SSP": {
+    "scr": "require(79985523722761)(%s)"
+  },
+  "Alif Guns": {
+    "scr": "require(96378053590566).gunman(%s)"
+  },
+  "KYS Pistol": {
+    "scr": "require(3023538289).load(%s)"
+  },
+  "N*zi Map": {
+    "scr": "require(139666139485072).load(%s)"
+  },
+  "G36K": {
+    "scr": "require(134012448849646).GetGun(%s, \"G36K\")"
+  },
+  "Maid+ Neko": {
+    "scr": "require(112055947383369)(%s, \"Maid+\")"
+  },
+  ".357 Magnum": {
+    "scr": "require(134012448849646).GetGun(%s, \".357 Magnum\")"
+  },
+  "RS6": {
+    "scr": "require(14843527426).RS6(%s)"
+  },
+  "Hanger": {
+    "scr": "require(03150276424):Fire(%s,\"i baked you a pie\")"
+  },
+  "AN-94 Custom": {
+    "scr": "require(134012448849646).GetGun(%s, \"AN-94 Custom\")"
+  },
+  "Hax GUI V2": {
+    "scr": "require(17472456139).fehax(%s)"
+  },
+  "Hax Gui V1": {
+    "scr": "require(13817392811):loadhax(plr.Name)"
+  },
+  "Primadon": {
+    "scr": "require(7944328748)(%s)"
+  },
+  "Grandosla": {
+    "scr": "require(10550585538)(%s)"
+  },
+  "Grab Knife V1": {
+    "scr": "require(14638461547).GKV1(%s)"
+  },
+  "Minos": {
+    "scr": "require(125252942466544)(%s, \"minos2\")"
+  },
+  "Bomb Vest V2": {
+    "scr": "require(0x49731b7f).load(%s)"
+  },
+  "HK SL8": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK SL8\")"
+  },
+  "Clientside Dex": {
+    "scr": "require(121930314906129)(%s)"
+  },
+  "MLG Gun": {
+    "scr": "require(6802356973).load(%s)"
+  },
+  "MA5B": {
+    "scr": "require(134012448849646).GetGun(%s, \"MA5B\")"
+  },
+  "Luger": {
+    "scr": "require(134012448849646).GetGun(%s, \"Luger\")"
+  },
+  "Colt SAA Revolver": {
+    "scr": "require(134012448849646).GetGun(%s, \"Colt SAA Revolver\")"
+  },
+  "cerberus": {
+    "scr": "require(87454024025428).load(%s)"
+  },
+  "La_Shotgun": {
+    "scr": "require(134012448849646).GetGun(%s, \"La_Shotgun\")"
+  },
+  "HyperSkiddedAdmin": {
+    "scr": "require(7652199956).HyperSkiddedAdmin(%s,Color3.fromRGB(255, 255, 255),Color3.fromRGB(0, 0, 0),\"square\",true)"
+  },
+  "KAC SR-16": {
+    "scr": "require(134012448849646).GetGun(%s, \"KAC SR-16\")"
+  },
+  "Server Destroyer GUI": {
+    "scr": "require(5257685661):Fire(%s)"
+  },
+  "Panther G": {
+    "scr": "require(14853575177).PANTHER_G(%s)"
+  },
+  "Ithaca M37 Stakeout": {
+    "scr": "require(134012448849646).GetGun(%s, \"Ithaca M37 Stakeout\")"
+  },
+  "IWI Tavor": {
+    "scr": "require(134012448849646).GetGun(%s, \"IWI Tavor\")"
+  },
+  "Add Kohls Admin Infinite": {
+    "scr": "require(4976432351):Fire(%s)"
+  },
+  "Undetected Admin": {
+    "scr": "require(4953013815):stfu(%s)"
+  },
+  "Henry Pony": {
+    "scr": "require(134012448849646).GetGun(%s, \"Henry Pony\")"
+  },
+  "590 Mariner": {
+    "scr": "require(134012448849646).GetGun(%s, \"590 Mariner\")"
+  },
+  "HK417": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK417\")"
+  },
+  "HK416A5": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK416A5\")"
+  },
+  "Xander's Toolpack": {
+    "scr": "require(5888706621).eliza(%s, \"eliza\")"
+  },
+  "Spark Admin": {
+    "scr": "require(5092096919)(%s, \";\")"
+  },
+  "ninja girl": {
+    "scr": "require(5724295147).load(%s)"
+  },
+  "Laser Gun Rework": {
+    "scr": "require(13965930567).Load(%s)"
+  },
+  "AAC Honey Badger PDW": {
+    "scr": "require(134012448849646).GetGun(%s, \"AAC Honey Badger PDW\")"
+  },
+  "Trash Hub": {
+    "scr": "require(17182254638)(%s)"
+  },
+  "Glory to the CCP": {
+    "scr": "require(78479855259811)(%s)"
+  },
+  "primadon": {
+    "scr": "require(126435509091696)(%s)"
+  },
+  "HK MP5/10": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK MP5/10\")"
+  },
+  "kitty gloves": {
+    "scr": "require(4941950872).load(%s)"
+  },
+  "Rammable Car": {
+    "scr": "require(17747788054).car(%s)"
+  },
+  "Moves+ Neko": {
+    "scr": "require(112055947383369)(%s, \"Moves+\")"
+  },
+  "AKM Scoped": {
+    "scr": "require(134012448849646).GetGun(%s, \"AKM Scoped\")"
+  },
+  "AK74M": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK74M\")"
+  },
+  "MML Admin": {
+    "scr": "require(12109440243).MMLV3(%s)"
+  },
+  "Flak Cannon": {
+    "scr": "require(6554368638).load(%s)"
+  },
+  "Glock 19": {
+    "scr": "require(134012448849646).GetGun(%s, \"Glock 19\")"
+  },
+  "AKM": {
+    "scr": "require(134012448849646).GetGun(%s, \"AKM\")"
+  },
+  "Creeper": {
+    "scr": "require(4708818072).Oaeh(%s)"
+  },
+  "simple spy": {
+    "scr": "require(95975374369103)(%s)"
+  },
+  "School Bus 2": {
+    "scr": "require(14564115112).Tutorial(%s)"
+  },
+  "H&K MP5": {
+    "scr": "require(134012448849646).GetGun(%s, \"H&K MP5\")"
+  },
+  "Green Barrett M82": {
+    "scr": "require(134012448849646).GetGun(%s, \"Green Barrett M82\")"
+  },
+  "zombie infection": {
+    "scr": "require(132003851498788)(%s)"
+  },
+  "gojo moveset": {
+    "scr": "require(73990455301930).Gojo(%s)"
+  },
+  "Red Neko": {
+    "scr": "require(112055947383369)(%s, \"Red\")"
+  },
+  "Space Elevator": {
+    "scr": "require(5702244094).space(%s)"
+  },
+  "Glock 18": {
+    "scr": "require(134012448849646).GetGun(%s, \"Glock 18\")"
+  },
+  "FN FAL 50.63": {
+    "scr": "require(134012448849646).GetGun(%s, \"FN FAL 50.63\")"
+  },
+  "Glock 17-S": {
+    "scr": "require(134012448849646).GetGun(%s, \"Glock 17-S\")"
+  },
+  "Raygun Mark II": {
+    "scr": "require(134012448849646).GetGun(%s, \"Raygun Mark II\")"
+  },
+  "Add Adonis": {
+    "scr": "require(113395415824171)(%s)"
+  },
+  "GROZA-1": {
+    "scr": "require(134012448849646).GetGun(%s, \"GROZA-1\")"
+  },
+  "Saitama": {
+    "scr": "require(125252942466544)(%s, \"saitama2\")"
+  },
+  "BMP2": {
+    "scr": "require(18128578585).BMP2(%s)"
+  },
+  "Mosque": {
+    "scr": "require(122050532527015).mosque(%s)"
+  },
+  "Atlas": {
+    "scr": "require(4021554160).load(%s)"
+  },
+  "Idk2 Neko": {
+    "scr": "require(112055947383369)(%s, \"Idk2\")"
+  },
+  "G36C": {
+    "scr": "require(134012448849646).GetGun(%s, \"G36C\")"
+  },
+  "G3": {
+    "scr": "require(134012448849646).GetGun(%s, \"G3\")"
+  },
+  "Exoliner V2": {
+    "scr": "require(16308206484)(%s)"
+  },
+  "FAMAS": {
+    "scr": "require(134012448849646).GetGun(%s, \"FAMAS\")"
+  },
+  "MK4 Supra": {
+    "scr": "require(14654155525).supra(%s)"
+  },
+  "Maid Neko": {
+    "scr": "require(112055947383369)(%s, \"Maid\")"
+  },
+  "moriyan drone": {
+    "scr": "require(6564964464)(%s)"
+  },
+  "Gojo": {
+    "scr": "require(125252942466544)(%s, \"sorcerer2\")"
+  },
+  "FP-45": {
+    "scr": "require(134012448849646).GetGun(%s, \"FP-45\")"
+  },
+  "FN FAL": {
+    "scr": "require(134012448849646).GetGun(%s, \"FN FAL\")"
+  },
+  "Jojo": {
+    "scr": "require(125252942466544)(%s, \"jojo\")"
+  },
+  "Exoliner V1": {
+    "scr": "require(4658036496):Fire(\"cCcZ[r@@,Vq8tg@d}.n<C~IjUM+IQ`\", %s)"
+  },
+  "Fergo HBR-A309 Astork": {
+    "scr": "require(134012448849646).GetGun(%s, \"Fergo HBR-A309 Astork\")"
+  },
+  "Quantom Admin": {
+    "scr": "require(12144872922):Fire(%s)"
+  },
+  "Excavator": {
+    "scr": "require(16857604287)(%s)"
+  },
+  "Dragunov SVDS": {
+    "scr": "require(134012448849646).GetGun(%s, \"Dragunov SVDS\")"
+  },
+  "Item Asylum Toolpack": {
+    "scr": "require(76650675352779).item_asylum(%s)"
+  },
+  "Desert Barrett M82": {
+    "scr": "require(134012448849646).GetGun(%s, \"Desert Barrett M82\")"
+  },
+  "Deagle L5": {
+    "scr": "require(134012448849646).GetGun(%s, \"Deagle L5\")"
+  },
+  "Old Ultimate Flex Works": {
+    "scr": "require(131839761715186).unlimitedniggaworks(%s)"
+  },
+  "neko arc (sfw)": {
+    "scr": "require(134825709410639).Burenyuu(%s)"
+  },
+  "logger.wtf": {
+    "scr": "require(120869500317355)(%s)"
+  },
+  "Colt M1911": {
+    "scr": "require(134012448849646).GetGun(%s, \"Colt M1911\")"
+  },
+  "C7A2": {
+    "scr": "require(134012448849646).GetGun(%s, \"C7A2\")"
+  },
+  "lixue hammer": {
+    "scr": "require(12882456972).hammer(%s)"
+  },
+  "Black Barrett M82": {
+    "scr": "require(134012448849646).GetGun(%s, \"Black Barrett M82\")"
+  },
+  "Chirunoo's Guns": {
+    "scr": "require(6754149602)(%s)"
+  },
+  "Drill Car": {
+    "scr": "require(11505758587).RAroblox(%s)"
+  },
+  "laptop": {
+    "scr": "require(5082247692)(%s)"
+  },
+  "AWP": {
+    "scr": "require(134012448849646).GetGun(%s, \"AWP\")"
+  },
+  "zerx gojo": {
+    "scr": "require(103408394508146).unlimited(%s)"
+  },
+  "AA-12 CQB": {
+    "scr": "require(134012448849646).GetGun(%s, \"AA-12 CQB\")"
+  },
+  "Stratosphere Admin": {
+    "scr": "require(4741673518).load(%s)"
+  },
+  "AUG A3": {
+    "scr": "require(134012448849646).GetGun(%s, \"AUG A3\")"
+  },
+  "jinx": {
+    "scr": "require(126027289435596).Jinx(%s)"
+  },
+  "Tsunami": {
+    "scr": "require(6159288338).load(%s)"
+  },
+  "AUG A2": {
+    "scr": "require(134012448849646).GetGun(%s, \"AUG A2\")"
+  },
+  "AR-15 Short Scope": {
+    "scr": "require(134012448849646).GetGun(%s, \"AR-15 Short Scope\")"
+  },
+  "Tiger 2": {
+    "scr": "require(15398611506).TigerII(%s)"
+  },
+  "Ro-Exploit V7": {
+    "scr": "require(117226651327622)(%s)"
+  },
+  "Intent Admin": {
+    "scr": "require(7015385529):Fire(\"Intent\", %s)"
+  },
+  "Garou": {
+    "scr": "require(125252942466544)(%s, \"garou2\")"
+  },
+  "Natural Disaster Survival": {
+    "scr": "require(14704225060).nds(%s)"
+  },
+  "XM8": {
+    "scr": "require(134012448849646).GetGun(%s, \"XM8\")"
+  },
+  "Omni God": {
+    "scr": "require(105596861749080).dun(%s)"
+  },
+  "Tank": {
+    "scr": "require(17847930736).tank(%s)"
+  },
+  "nebula baldi": {
+    "scr": "require(94012284258984)(%s)"
+  },
+  "HK MP5": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK MP5\")"
+  },
+  "name hider": {
+    "scr": "require(5856634802)(%s)"
+  },
+  "Aeshma": {
+    "scr": "require(6342834455).load(%s)"
+  },
+  "Khols Inf Creator": {
+    "scr": "_G.setPower:Fire(%s, 6)"
+  },
+  "Nuclear Missle": {
+    "scr": "require(7804327506).amigodogodenot123(%s)"
+  },
+  "AK-103": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK-103\")"
+  },
+  "AK74": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK74\")"
+  },
+  "explode": {
+    "scr": "require(134012448849646).GetGun(%s, \"explode\")"
+  },
+  "AK-12 Scoped": {
+    "scr": "require(134012448849646).GetGun(%s, \"AK-12 Scoped\")"
+  },
+  "Dex Explorer": {
+    "scr": "require(14572394952)(%s)"
+  },
+  "AEK971": {
+    "scr": "require(134012448849646).GetGun(%s, \"AEK971\")"
+  },
+  "Void Laser Cannon": {
+    "scr": "require(6099977149).load(%s)"
+  },
+  "Goner": {
+    "scr": "require(4513235536).G(%s)"
+  },
+  "Steve": {
+    "scr": "require(15581949972).mc(%s)"
+  },
+  "Ambush": {
+    "scr": "require(11213747230).ambush(%s)"
+  },
+  "Idk Neko": {
+    "scr": "require(112055947383369)(%s, \"Idk1\")"
+  },
+  ".44 Magnum": {
+    "scr": "require(134012448849646).GetGun(%s, \".44 Magnum\")"
+  },
+  "Deku": {
+    "scr": "require(129542151584373).GetVFX(%s, \"OneForAll (e,r,t,f,q)\")"
+  },
+  "Zenit AS VAL": {
+    "scr": "require(134012448849646).GetGun(%s, \"Zenit AS VAL\")"
+  },
+  "uxi reborn": {
+    "scr": "require(4875475056)(%s)"
+  },
+  "Honda  Civic (Dragster)": {
+    "scr": "require(14519206662).Tutorial(%s)"
+  },
+  "Helicopter": {
+    "scr": "require(12620186035).Huey(%s)"
+  },
+  "Barrett M107": {
+    "scr": "require(134012448849646).GetGun(%s, \"Barrett M107\")"
+  },
+  "AR-15 Long Scope": {
+    "scr": "require(134012448849646).GetGun(%s, \"AR-15 Long Scope\")"
+  },
+  "Kurt's Toolpack": {
+    "scr": "require(15594962243).l(%s)"
+  },
+  "Substrike": {
+    "scr": "require(14775634069)(%s)"
+  },
+  "Toyota Prius": {
+    "scr": "require(14569474975).ugly(%s)"
+  },
+  "Burger": {
+    "scr": "require(12540594061).load(%s)"
+  },
+  "Bazooka": {
+    "scr": "require(138296863027063):Bazooka(%s)"
+  },
+  "Arc Storage": {
+    "scr": "require(7274736492)(%s)"
+  },
+  "Topkek 5.3": {
+    "scr": "require(14006218970)(%s)"
+  },
+  "Adonis Dex": {
+    "scr": "require(107826504628867)(%s)"
+  },
+  "Snake Venom": {
+    "scr": "require(5784355926):SnakeVenomOwnerByIgorJogasPlay(%s)"
+  },
+  "Hk416": {
+    "scr": "require(134012448849646).GetGun(%s, \"Hk416\")"
+  },
+  "USS Arleigh Burke": {
+    "scr": "require(18678780845).SSARLEIGHBURKE(%s)"
+  },
+  "Galil": {
+    "scr": "require(134012448849646).GetGun(%s, \"Galil\")"
+  },
+  "HK416 Comp aimpoint": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK416 Comp aimpoint\")"
+  },
+  "FAMAS Scope": {
+    "scr": "require(134012448849646).GetGun(%s, \"FAMAS Scope\")"
+  },
+  "Tool Pack 1": {
+    "scr": "require(7103633176)(%s)"
+  },
+  "Btools": {
+    "scr": "require(16530393933)(%s)"
+  },
+  "Anti Leave": {
+    "scr": "require(12673588283)"
+  },
+  "Airstrike": {
+    "scr": "require(11670894308).Strafe(%s)"
+  },
+  "AH1Z": {
+    "scr": "require(15396312233).AH1Z(%s)"
+  },
+  "K**P V11": {
+    "scr": "require(15267263357).V11(%s)"
+  },
+  "Genos": {
+    "scr": "require(125252942466544)(%s, \"genos\")"
+  },
+  "A-60": {
+    "scr": "require(12180555239).rooms(%s)"
+  },
+  "Cadillac Escalade": {
+    "scr": "require(112055947383369)(%s, \"KawaiiPink\")"
+  },
+  "Add Kohls Beta": {
+    "scr": "require(101937151928743)(%s)"
+  },
+  "Artillery Luger": {
+    "scr": "require(134012448849646).GetGun(%s, \"Artillery Luger\")"
+  },
+  "Noob Neko": {
+    "scr": "require(112055947383369)(%s, \"Noob\")"
+  },
+  "M1A2 Abrams": {
+    "scr": "require(15398931187).M1A2(%s)"
+  },
+  "waifu ": {
+    "scr": "require(96018601382311).waifuwu(%s)"
+  },
+  "Mercedes Benz": {
+    "scr": "require(14569455219).benz(%s)"
+  },
+  "School Bus 1": {
+    "scr": "require(14503924460).Tutorial(%s)"
+  },
+  "Acorn Neko": {
+    "scr": "require(112055947383369)(%s, \"Acorn\")"
+  },
+  "Purity Claws": {
+    "scr": "require(6144288679).load(%s)"
+  },
+  "DVLP SOPMOD AK": {
+    "scr": "require(134012448849646).GetGun(%s, \"DVLP SOPMOD AK\")"
+  },
+  "Burger Frenzy": {
+    "scr": "require(77940463944758).burgur(%s)"
+  },
+  "HK MP5SD": {
+    "scr": "require(134012448849646).GetGun(%s, \"HK MP5SD\")"
+  },
+  "Squid Bomb": {
+    "scr": "require(11838049109).squidBomb(%s, true)"
+  },
+  "anti ban gui": {
+    "scr": "require(12179326311)(%s)"
+  }
+}
